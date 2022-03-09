@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "DoctorAdd";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="resume-section-content">
+    <form method="post">
+        <h2 class="mb-5">Yeni Doktor Ekle</h2>
+        <label>Ad</label>
+        <input type="text" class="form-control" name="Name" placeholder="Adınızı yazınız..." />
+        <label>Soyad</label>
+        <input type="text" class="form-control" name="Surname" placeholder="Soyadınızı yazınız..." />
+        <label>Telefon</label>
+        <input type="text" class="form-control" name="Phone" placeholder="Telefon yazınız..." />
+        <label>Email</label>
+        <input type="text" class="form-control" name="Email" placeholder="Email yazınız..." />       <br />
+        <button class="btn btn-info">Kaydet</button>
+    </form>
+</div>
+
